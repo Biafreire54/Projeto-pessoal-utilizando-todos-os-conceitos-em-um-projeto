@@ -1,0 +1,14 @@
+* {
+    margin: 2px;
+    padding: 0px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(228, 186, 244);
+}
+
+input, select{
+    border-radius: 5px;
+}
+

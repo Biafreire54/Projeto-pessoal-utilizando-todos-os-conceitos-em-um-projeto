@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Vendas</title>
+</head>
+<body>
+    <h2>Sistema de Vendas</h2>
+
+    <label for="name">Digite o nome da vendedora: </label>
+    <input type="text" name="name" id="name" placeholder="Digite o nome da vendedora: "><br>
+    
+    <label for="name">Digite o nome do Cliente: </label>
+    <input type="text" name="name1" id="name1" placeholder="Digite seu nome: "><br>
+
+    <label for="Clothing">Peça de Roupa:</label>
+    <select name="Clothing" id="Clothing">
+        <option selected disabled>Selecione uma opção...</option>
+        <option value="Conjunto Masculino"> Conjunto Masculino</option>
+        <option value="Camisetas Polos">Camisetas Polos</option>
+        <option value="Vestidos">Vestidos</option>
+        <option value="Shorts">Shorts</option>
+        <option value="Tênis">Tênis</option>
+        <option value="Sandálias">Sandálias</option>
+        <option value="Bolsas">Bolsas</option>
+        <option value="Calças Cargo">Calças Cargo</option>
+        <option value="Jaquetas">Jaquetas</option>
+        <option value="Moletom">Moletom</option>
+        <option value="Kit de Blusas">Kit de Blusas</option>
+    </select>
+        
+    <div class="valor">
+    <label for="valor">Valor Total R$: </label>
+    <input type="number" name="valor" id="valor" placeholder="Digite o valor total: "><br>
+    </div>
+
+    <label for="qntd">Quantidade: </label>
+    <input type="number" id="quantidade" required><br> 
+
+    <button onclick="Vender()">Vender</button>
+
+    <div class="lista">
+        <h4>Vendas:</h4><br>
+        <ol id="list">
+
+        </ol>
+    </div>
+</body>
+</html>
